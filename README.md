@@ -1,5 +1,11 @@
-1.Pink Matrix Login/Sign Up Form
+3. Soccer Club Sign-Up Form
+This project is a responsive HTML & CSS web form designed for soccer clubs to register new members in a stylish and engaging way. The layout is split into two sections — a left image panel and a right interactive sign-up form.
 
-A stylish, animated login and signup form featuring a full-screen pink Matrix-style falling code background.
-The form uses a 3D flip card effect to toggle between login and signup views, includes input fields for user credentials,
-and social login buttons with pink-themed icons. Responsive and visually engaging for modern web applications.
+Features
+-Two-Panel Design – Left side displays a soccer-themed image for branding, right side contains the form fields.
+-Custom Background Pattern – A subtle, semi-transparent soccer ball pattern applied across the page for thematic appeal.
+-Responsive Layout – Adjusts seamlessly for desktop, tablet, and mobile screens.
+-Modern Styling – Rounded corners, drop shadows, and hover effects for inputs and buttons.
+-Focus State Highlight – Input fields glow green when active to improve usability.
+
+ 
