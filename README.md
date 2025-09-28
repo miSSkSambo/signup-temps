@@ -1,33 +1,32 @@
-1. cookie sign up form
- Creates an animated cookie-themed sign-up page with playful falling cookies and heart effects on the sign-up button.
+# Sign‑Up Forms Collection
 
-Main Features
--Background Animation – Cookies fall from the top of the screen at random sizes, speeds, and positions.
--Floating Sign-Up Form – Centered white form with animated floating effect.
--Styled Inputs & Button – Rounded edges, warm brown color palette to match cookie theme.
--Heart Animation on Hover – Small heart icons float upward when hovering over the sign-up button.
--Responsive Design – Uses flexbox for centering; works across different screen sizes.
+Three standalone, no‑build HTML sign‑up pages you can open directly in a browser.
 
-Core Logic
--JavaScript 1: Generates cookie elements every 500ms, animating their fall and removing them after they leave the screen.
--JavaScript 2: Adds animated hearts on button hover, with continuous hearts appearing while the mouse stays over the button.
+## Files
+- `cookie-cafe.html` — Cookie Café themed sign‑up with falling cookie particles and floating card.
+- `pink-matrix-auth.html` — Flip‑card Login/Sign‑Up over a pink “Matrix” style animated background.
+- `soccer-club.html` — Split‑panel Soccer Club sign‑up with a hero image and subtle ball pattern.
+- `assets/soccer.jpeg` — Placeholder hero image used by `soccer-club.html`.
 
-2. Matrix sign up form
-A stylish authentication UI with a pink Matrix falling code background and a 3D flip-card form for login and sign-up.
+> Note: In `cookie-cafe.html`, the falling cookie elements use a `background: url('')`.  
+> If you want visible cookies, drop an image into `assets/` (e.g. `assets/cookie.png`) and set the CSS to:  
+> `.cookie { background: url('assets/cookie.png') no-repeat center/contain; }`
 
--Features: Animated matrix effect, flip-card switch, responsive layout, login/sign-up fields, and social login buttons (Google, Twitter, GitHub).
--Core Logic: JavaScript handles the matrix animation, card flipping, and responsive resizing.
--Tech Stack: HTML5 for structure, CSS3 for styling/animations, and Vanilla JavaScript for interactivity.
+## Quick Preview
+1. Clone or unzip this repo.
+2. Double‑click any `.html` file to open it in your browser.
+   - For live reload, use VS Code’s *Live Server* extension or any static server.
 
+## Customisation Tips
+- Swap fonts, colours, or copy to match your brand.
+- Hook the forms to your backend by adding `action`/`method` on `<form>` tags or attaching JS `fetch()`/XHR.
+- Replace `assets/soccer.jpeg` with your own image and update the path in CSS if needed.
+- Social icons are inline SVGs; wire them to OAuth flows on your backend.
 
-3. Soccer Club Sign-Up Form
-This project is a responsive HTML & CSS web form designed for soccer clubs to register new members in a stylish and engaging way. The layout is split into two sections — a left image panel and a right interactive sign-up form.
+## Accessibility & UX
+- Inputs have clear focus states and sufficient contrast.
+- Consider adding form labels and client‑side validation for production use.
+- Ensure keyboard navigation works as expected; add `:focus` styles where applicable.
 
-Features
--Two-Panel Design – Left side displays a soccer-themed image for branding, right side contains the form fields.
--Custom Background Pattern – A subtle, semi-transparent soccer ball pattern applied across the page for thematic appeal.
--Responsive Layout – Adjusts seamlessly for desktop, tablet, and mobile screens.
--Modern Styling – Rounded corners, drop shadows, and hover effects for inputs and buttons.
--Focus State Highlight – Input fields glow green when active to improve usability.
-
- 
+## License
+MIT — see `LICENSE`.
