@@ -1,32 +1,83 @@
-# Sign‑Up Forms Collection
+# ✨ Sign-Up Forms Collection  
 
-Three standalone, no‑build HTML sign‑up pages you can open directly in a browser.
+A collection of **three creative sign-up / login forms** built with **HTML, CSS, and JavaScript**. Each design is unique, with animated effects, themed layouts, and responsive styling — great for inspiration or integration into larger projects.  
 
-## Files
-- `cookie-cafe.html` — Cookie Café themed sign‑up with falling cookie particles and floating card.
-- `pink-matrix-auth.html` — Flip‑card Login/Sign‑Up over a pink “Matrix” style animated background.
-- `soccer-club.html` — Split‑panel Soccer Club sign‑up with a hero image and subtle ball pattern.
-- `assets/soccer.jpeg` — Placeholder hero image used by `soccer-club.html`.
+---
 
-> Note: In `cookie-cafe.html`, the falling cookie elements use a `background: url('')`.  
-> If you want visible cookies, drop an image into `assets/` (e.g. `assets/cookie.png`) and set the CSS to:  
-> `.cookie { background: url('assets/cookie.png') no-repeat center/contain; }`
+## 🚀 Forms Included  
 
-## Quick Preview
-1. Clone or unzip this repo.
-2. Double‑click any `.html` file to open it in your browser.
-   - For live reload, use VS Code’s *Live Server* extension or any static server.
+### 1. 🍪 Cookie Café Sign-Up  
+- Falling cookie background animation  
+- Floating card style form  
+- Heart trail effect on button hover  
+- Cozy café-inspired color scheme  
 
-## Customisation Tips
-- Swap fonts, colours, or copy to match your brand.
-- Hook the forms to your backend by adding `action`/`method` on `<form>` tags or attaching JS `fetch()`/XHR.
-- Replace `assets/soccer.jpeg` with your own image and update the path in CSS if needed.
-- Social icons are inline SVGs; wire them to OAuth flows on your backend.
+👉 [Open Cookie Café](cookie-cafe.html)  
 
-## Accessibility & UX
-- Inputs have clear focus states and sufficient contrast.
-- Consider adding form labels and client‑side validation for production use.
-- Ensure keyboard navigation works as expected; add `:focus` styles where applicable.
+---
 
-## License
-MIT — see `LICENSE`.
+### 2. 💻 Pink Matrix Login/Sign-Up  
+- Futuristic flip-card UI (login ↔ sign-up)  
+- Animated pink "Matrix rain" background  
+- Includes social login icon placeholders  
+- Smooth card flipping transitions  
+
+👉 [Open Pink Matrix](pink-matrix-auth.html)  
+
+---
+
+### 3. ⚽ Soccer Club Sign-Up  
+- Split-panel layout with soccer field hero image  
+- Clean and professional form design  
+- Styled inputs with hover/focus effects  
+- Responsive for mobile and tablet  
+
+👉 [Open Soccer Club](soccer-club.html)  
+
+---
+
+## 🛠 Tech Stack  
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+</p>
+
+- **HTML5** → Semantic page structure  
+- **CSS3** → Animations, gradients, responsive design  
+- **JavaScript (ES6)** → Interactive effects & dynamic elements  
+
+---
+
+## 📂 Project Structure  
+
+```
+.
+├── index.html               # Landing page with thumbnails for all forms
+├── cookie-cafe.html         # Cookie Café themed form
+├── pink-matrix-auth.html    # Pink Matrix login/sign-up
+├── soccer-club.html         # Soccer Club split layout form
+├── assets/
+│   ├── thumb-cookie.png     # Cookie Café thumbnail
+│   ├── thumb-matrix.png     # Pink Matrix thumbnail
+│   ├── thumb-soccer.png     # Soccer Club thumbnail
+│   └── soccer.jpeg          # Soccer hero image
+├── README.md
+├── LICENSE
+├── .gitignore
+└── .github/workflows/pages.yml  # GitHub Pages workflow
+```
+
+---
+
+## 🌐 Live Demo  
+
+After pushing to GitHub, enable **GitHub Pages**:  
+👉 `https://YOUR_USERNAME.github.io/signup-forms/`  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License** — free to use, modify, and distribute.  
