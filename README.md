@@ -12,6 +12,12 @@ Core Logic
 -JavaScript 1: Generates cookie elements every 500ms, animating their fall and removing them after they leave the screen.
 -JavaScript 2: Adds animated hearts on button hover, with continuous hearts appearing while the mouse stays over the button.
 
+2. Matrix sign up form
+A stylish authentication UI with a pink Matrix falling code background and a 3D flip-card form for login and sign-up.
+
+-Features: Animated matrix effect, flip-card switch, responsive layout, login/sign-up fields, and social login buttons (Google, Twitter, GitHub).
+-Core Logic: JavaScript handles the matrix animation, card flipping, and responsive resizing.
+-Tech Stack: HTML5 for structure, CSS3 for styling/animations, and Vanilla JavaScript for interactivity.
 
 
 3. Soccer Club Sign-Up Form
